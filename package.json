@@ -2,7 +2,7 @@
   "name": "universal_app",
   "version": "1.0.0",
   "description": "universal app",
-  "main": "index.js",
+  "main": "dist/server.bundle.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run api\"",
     "build-dev": "npm run client-dev && npm run server-dev",
